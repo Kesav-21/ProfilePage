@@ -1,0 +1,520 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Profile | Kesavaraman</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
+<meta content="Kesav" name="author" />
+<link rel="shortcut icon" href="assets/images/favicon.ico">
+<!-- CSS section -->
+<link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+<link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+<link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+<link href="assets/css/all.min.css" id="app-style" rel="stylesheet" type="text/css" />
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css">
+
+<!-- End of CSS -->
+</head>
+<body data-sidebar="dark">
+<div id="layout-wrapper">
+<header id="page-topbar">
+<div class="navbar-header">
+<div class="navbar-brand-box">
+<a href="#" class="logo logo-light">
+<span class="logo-sm">
+<img src="./assets/images/K.jpg" alt="" height="40">
+</span>
+<span class="logo-lg">
+<img src="./assets/images/kesav.jpg" alt="" height="49">
+</span>
+</a>
+</div>
+<div id="#item2" class="d-flex">
+<div class="dropdown d-inline-block">
+<button type="button" class="btn header-item waves-effect" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+<img id="header-lang-img" src="assets/images/us.jpg" alt="Header Language" height="16">
+</button>
+<div class="dropdown-menu dropdown-menu-end">
+<a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="en">
+<img src="./assets/images/us.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">English</span>
+</a>
+<a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="sp">
+<img src="./assets/images/spain.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">Spanish</span>
+</a>
+<a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="gr">
+<img src="./assets/images/germany.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">German</span>
+</a>
+<a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="it">
+<img src="./assets/images/italy.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">Italian</span>
+</a>
+<a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="ru">
+<img src="./assets/images/russia.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">Russian</span>
+</a>
+</div>
+</div>
+<div class="dropdown d-none d-lg-inline-block ms-1">
+<button type="button" class="btn header-item noti-icon waves-effect" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+ <i class="bx bx-customize"></i>
+</button>
+<div class="dropdown-menu dropdown-menu-lg dropdown-menu-end">
+<div class="px-lg-2">
+<div class="row g-0">
+<div class="col">
+<a class="dropdown-icon-item" href="#">
+<img src="./assets/images/github.png" alt="Github">
+<span>GitHub</span>
+</a>
+</div>
+<div class="col">
+<a class="dropdown-icon-item" href="#">
+<img src="./assets/images/bitbucket.png" alt="bitbucket">
+<span>Bitbucket</span>
+</a>
+</div>
+<div class="col">
+<a class="dropdown-icon-item" href="#">
+<img src="./assets/images/dribbble.png" alt="dribbble">
+<span>Dribbble</span>
+</a>
+</div>
+</div>
+<div class="row g-0">
+<div class="col">
+<a class="dropdown-icon-item" href="#">
+<img src="./assets/images/dropbox.png" alt="dropbox">
+<span>Dropbox</span>
+</a>
+</div>
+<div class="col">
+<a class="dropdown-icon-item" href="#">
+<img src="./assets/images/mail_chimp.png" alt="mail_chimp">
+<span>Mail Chimp</span>
+</a>
+</div>
+<div class="col">
+<a class="dropdown-icon-item" href="#">
+<img src="./assets/images/slack.png" alt="slack">
+<span>Slack</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="dropdown d-none d-lg-inline-block ms-1">
+<button type="button" class="btn header-item noti-icon waves-effect" data-toggle="fullscreen">
+<i class="bx bx-fullscreen"></i>
+</button>
+</div>
+<div class="dropdown d-inline-block">
+<button type="button" class="btn header-item noti-icon waves-effect" id="page-header-notifications-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+<i class="bx bx-bell bx-tada"></i>
+<span class="badge bg-danger rounded-pill">3</span>
+</button>
+<div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0" aria-labelledby="page-header-notifications-dropdown">
+<div class="p-3">
+<div class="row align-items-center">
+<div class="col">
+<h6 class="m-0" key="t-notifications"> Notifications </h6>
+</div>
+<div class="col-auto">
+<a href="#!" class="small" key="t-view-all"> View All</a>
+</div>
+</div>
+</div>
+<div data-simplebar style="max-height: 230px;">
+<a href="#" class="text-reset notification-item">
+<div class="media">
+<div class="avatar-xs me-3">
+<span class="avatar-title bg-primary rounded-circle font-size-16">
+<i class="bx bx-cart"></i>
+</span>
+</div>
+<div class="media-body">
+<h6 class="mt-0 mb-1" key="t-your-order">Your order is placed</h6>
+<div class="font-size-12 text-muted">
+<p class="mb-1" key="t-grammer">If several languages coalesce the grammar</p>
+<p class="mb-0"><i class="mdi mdi-clock-outline"></i> <span key="t-min-ago">3 min ago</span></p>
+</div>
+</div>
+</div>
+</a>
+<a href="#" class="text-reset notification-item">
+<div class="media">
+<img src="assets/images/K.jpg" class="me-3 rounded-circle avatar-xs" alt="user-pic">
+<div class="media-body">
+<h6 class="mt-0 mb-1">James Lemire</h6>
+<div class="font-size-12 text-muted">
+<p class="mb-1" key="t-simplified">It will seem like simplified English.</p>
+<p class="mb-0"><i class="mdi mdi-clock-outline"></i> <span key="t-hours-ago">1 hours ago</span></p>
+</div>
+</div>
+</div>
+</a>
+<a>
+<div class="p-2 border-top d-grid">
+    <a class="btn btn-sm btn-link font-size-14 text-center" href="javascript:void(0)">
+    <i class="mdi mdi-arrow-right-circle me-1"></i> <span key="t-view-more">View More..</span>
+    </a>
+    </div>
+</div>
+</div>
+<div class="dropdown d-inline-block">
+<button type="button" class="btn header-item waves-effect" id="page-header-user-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+<img class="rounded-circle header-profile-user" src="assets/images/K.jpg" alt="Header Avatar">
+<span class="d-none d-xl-inline-block ms-1" key="t-henry">KESAV</span>
+<i class="mdi mdi-chevron-down d-none d-xl-inline-block"></i>
+</button>
+<div class="dropdown-menu dropdown-menu-end">
+
+<a class="dropdown-item" href="#"><i class="bx bx-user font-size-16 align-middle me-1"></i> <span key="t-profile">Profile</span></a>
+<a class="dropdown-item" href="#"><i class="bx bx-wallet font-size-16 align-middle me-1"></i> <span key="t-my-wallet">My Wallet</span></a>
+<a class="dropdown-item d-block" href="#"><span class="badge bg-success float-end">11</span><i class="bx bx-wrench font-size-16 align-middle me-1"></i> <span key="t-settings">Settings</span></a>
+<a class="dropdown-item" href="#"><i class="bx bx-lock-open font-size-16 align-middle me-1"></i> <span key="t-lock-screen">Lock screen</span></a>
+<div class="dropdown-divider"></div>
+<a class="dropdown-item text-danger" href="#"><i class="bx bx-power-off font-size-16 align-middle me-1 text-danger"></i> <span key="t-logout">Logout</span></a>
+</div>
+</div>
+<div class="dropdown d-inline-block">
+<button type="button" class="btn header-item noti-icon right-bar-toggle waves-effect">
+<i class="bx bx-cog bx-spin"></i>
+</button>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div class="main-content">
+<div class="page-content">
+<div class="container-fluid">
+
+<div class="row">
+<div class="col-12">
+<div class="page-title-box d-sm-flex align-items-center justify-content-between">
+<h4 class="mb-sm-0 font-size-18">Profile</h4>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-xl-4">
+<div class="card overflow-hidden">
+<div class="bg-primary bg-soft">
+<div class="row">
+<div class="col-7">
+<div class="text-primary p-3">
+<h5 class="text-primary">Welcome Back !</h5>
+<p>It will seem like simplified</p>
+</div>
+</div>
+<div class="col-5 align-self-end">
+<img src="assets/images/profile-img.png" alt="" class="img-fluid">
+</div>
+</div>
+</div>
+ <div class="card-body pt-0">
+<div class="row">
+<div class="col-sm-5">
+<div class="avatar-md profile-user-wid mb-4">
+<img src="assets/images/K.jpg" alt="" class="img-thumbnail rounded-circle">
+</div>
+<h5 class="font-size-15 text-truncate">Kesavaraman</h5>
+<p class="text-muted mb-0 text-truncate">Front End Developer</p>
+</div>
+<div class="col-sm-7">
+<div class="pt-4">
+<div class="row">
+<div class="col-6">
+<h5 class="font-size-15">11</h5>
+<p class="text-muted mb-0">Projects</p>
+</div>
+<div class="col-6">
+<h5 class="font-size-15">13</h5>
+<p class="text-muted mb-0">Skills</p>
+</div>
+</div>
+<div class="mt-4">
+<a href="https://kesav-portfolio.netlify.com" class="btn btn-primary waves-effect waves-light btn-sm ">View Profile <i class="mdi mdi-arrow-right ms-1"></i></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-body">
+<h4 class="card-title mb-4">Personal Information</h4>
+<p class="text-muted mb-4">I'm Kesavaraman a passionate self-taught Full Stack web developer . I'm a graduand in Computer Science from Panimalar Engineering College. I'm a passionate learner who's always willing to learn and work across technologies and domains bringing you programming and design from the future.</p>
+<div class="table-responsive">
+<table class="table table-nowrap mb-0">
+<tbody>
+<tr>
+<th scope="row">Full Name :</th>
+<td>Kesavaraman M R</td>
+</tr>
+<tr>
+<th scope="row">Mobile :</th>
+<td>+91 7010446703</td>
+</tr>
+<tr>
+<th scope="row">E-mail :</th>
+<td><a href="mailto:cgkesav@gmail.com">cgkesav@gmail.com</a></td>
+</tr>
+<tr>
+<th scope="row">Location :</th>
+<td>Chennai, India</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-body">
+<h4 class="card-title mb-5">Experience & Education</h4>
+<div class="">
+<ul class="verti-timeline list-unstyled">
+<li class="event-list active">
+<div class="event-timeline-dot">
+<i class="bx bx-right-arrow-circle bx-fade-right"></i>
+</div>
+<div class="media">
+<div class="me-3">
+<i class="bx bx-code h4 text-primary"></i>
+</div>
+<div class="media-body">
+<div>
+<h5 class="font-size-15"><a href="#" class="text-dark">Web Developer Intern - <br>Simtrak Solutions</a></h5>
+<span class="text-primary">Jan,2023(Present)</span>
+</div>
+</div>
+</div>
+</li>
+<li class="event-list active">
+<div class="event-timeline-dot">
+<i class="bx bx-right-arrow-circle bx-fade-right"></i>
+</div>
+<div class="media">
+<div class="me-3">
+<i class="bx bx-code h4 text-primary"></i>
+</div>
+<div class="media-body">
+<div>
+<h5 class="font-size-15"><a href="#" class="text-dark">Panimalar Engineering College -<br> BE CSE</a></h5>
+<span class="text-primary">2020 - 2024(Present)</span>
+</div>
+</div>
+</div>
+</li>
+<li class="event-list ">
+<div class="event-timeline-dot">
+<i class="bx bx-right-arrow-circle "></i>
+</div>
+<div class="media">
+<div class="me-3">
+<i class="bx bx-server h4 text-primary"></i>
+</div>
+<div class="media-body">
+<div>
+<h5 class="font-size-15"><a href="#" class="text-dark">Web Developer Intern - <br> Spark Foundations</a></h5>
+<span class="text-primary">Mar - Apr 2022</span>
+</div>
+</div>
+</div>
+</li>
+<li class="event-list">
+<div class="event-timeline-dot">
+<i class="bx bx-right-arrow-circle"></i>
+</div>
+<div class="media">
+<div class="me-3">
+<i class="bx bx-edit h4 text-primary"></i>
+</div>
+<div class="media-body">
+<div>
+<h5 class="font-size-15"><a href="#" class="text-dark">Shri Niketan Matric Hr.Sec School - <br> High School</a></h5>
+<span class="text-primary">2018 - 2020</span>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+</div>
+<div class="col-xl-8">
+<div class="row">
+<div class="col-md-4">
+<div class="card mini-stats-wid">
+<div class="card-body">
+<div class="media">
+<div class="media-body">
+<p class="text-muted fw-medium mb-2">Completed Projects</p>
+<h4 class="mb-0">11</h4>
+</div>
+<div class="mini-stat-icon avatar-sm align-self-center rounded-circle bg-primary">
+<span class="avatar-title">
+<i class="bx bx-check-circle font-size-24"></i>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card mini-stats-wid">
+<div class="card-body">
+<div class="media">
+<div class="media-body">
+<p class="text-muted fw-medium mb-2">Pending Projects</p>
+<h4 class="mb-0">2</h4>
+</div>
+<div class="avatar-sm align-self-center mini-stat-icon rounded-circle bg-primary">
+<span class="avatar-title">
+<i class="bx bx-hourglass font-size-24"></i>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card mini-stats-wid">
+<div class="card-body">
+<div class="media">
+<div class="media-body">
+<p class="text-muted fw-medium mb-2">Total Hours</p>
+<h4 class="mb-0">More than 300hrs</h4>
+</div>
+<div class="avatar-sm align-self-center mini-stat-icon rounded-circle bg-primary">
+ <span class="avatar-title">
+<i class="bx bx-package font-size-24"></i>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="card">
+<div class="card-body">
+<h4 class="card-title mb-4">Skills</h4>
+<div id="revenue-chart" class="apex-charts" dir="ltr"></div>
+</div>
+</div>
+<div class="card">
+<div class="card-body">
+<h4 class="card-title mb-4">My Projects</h4>
+<div class="table-responsive">
+<table class="table table-nowrap table-hover mb-0">
+<thead>
+<tr>
+<th scope="col">#</th>
+<th scope="col">Certifications</th>
+<th scope="col">Offered By</th>
+<th scope="col">Date Received</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row">1</th>
+<td>Learning Java</td>
+<td>LinkedIn Learning</td>
+<td>Dec, 2022</td>
+</tr>
+<tr>
+<th scope="row">2</th>
+<td>Front-End Web Development with React</td>
+<td>The Hong Kong University of Sciene and Technology</td>
+<td>Nov, 2022</td>
+</tr>
+<tr>
+<th scope="row">3</th>
+<td>Google Cloud Badges and skills</td>
+<td>Google</td>
+<td>May, 2022</td>
+</tr>
+<tr>
+<th scope="row">4</th>
+<td>Python for Data Sciene, AI & Development</td>
+<td>IBM - Coursera</td>
+<td>Feb, 2022</td>
+</tr>
+<tr>
+ <th scope="row">5</th>
+<td>Tools for Data Science</td>
+<td>IBM - Coursera</td>
+<td>Jan, 2022</td>
+</tr>
+<tr>
+<th scope="row">6</th>
+<td>Front End Development Libraries</td>
+<td>freeCodeCamp</td>
+<td>Oct, 2021</td>
+</tr>
+<tr>
+<th scope="row">7</th>
+<td>JavaScript Algorithms and Data Structures</td>
+<td>freeCodeCamp</td>
+<td>Jul, 2021</td>
+</tr>
+<tr>
+<th scope="row">8</th>
+<td>Responsive Web Design</td>
+<td>freeCodeCamp</td>
+<td>May, 2021</td>
+</tr>
+<tr>
+<th scope="row">9</th>
+<td>Python</td>
+<td>Guvi</td>
+<td>Apr, 2021</td>
+</tr>
+<tr>
+<th scope="row">10</th>
+<td>Data Analysis with Python: Zero to Pandas</td>
+<td>Jovian</td>
+<td>Oct, 2020</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div> 
+</div>
+<footer class="footer">
+<div class="container-fluid">
+<div class="row">
+<div class="col-sm-6">
+<div class="text-sm-end d-none d-sm-block"><script>document.write(new Date().getFullYear())</script>© Kesav.</div>
+</div>
+<div class="col-sm-6">
+<div class="text-sm-end d-none d-sm-block">Edited by Kesav</div>
+</div>
+</div>
+</div>
+</footer>
+</div>
+</div>
+
+<script src="assets/libs/jquery/jquery.min.js"></script>
+<script src="assets/libs/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="assets/libs/metismenu/metisMenu.min.js"></script>
+<script src="assets/libs/simplebar/simplebar.min.js"></script>
+<script src="assets/libs/node-waves/waves.min.js"></script>
+<script src="assets/libs/apexcharts/apexcharts.min.js"></script>
+<script src="assets/js/pages/profile.init.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/dist/boxicons.js" integrity="sha512-kWH92pHUC/rcjpSMu19lT+H6TlZwZCAftg9AuSw+AVYSdEKSlXXB8o6g12mg5f+Pj5xO40A7ju2ot/VdodCthw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
